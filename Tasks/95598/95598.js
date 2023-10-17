@@ -461,7 +461,7 @@ async function getElcFee() {
             subTitle += `上月用电: ${totalPq}`
         }
         if (sumMoney) {
-            subTitle += `\t账户余额: ${sumMoney}`
+            subTitle += `账户余额: ${sumMoney}`
         }
         if (date) {
             Message += `截至日期: ${date}`
